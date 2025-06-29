@@ -22,7 +22,7 @@ We explore:
 
 ## 📂 Folder Structure
 
-root/
+fraud-detection-project/
 │
 ├── data/
 │    ├── Fraud.csv
