@@ -43,16 +43,27 @@ fraud-detection-project/
 ## 🗂️ Dataset
 
 We use a synthetic fraud detection dataset:
+⚠️ **Important:** The original fraud detection dataset used in this project is large and not included in this repository to keep the repo size manageable.
 
-- File: `data/Fraud.csv`
-- Features include:
-  - Transaction type
-  - Amount
-  - Origin and destination balance changes
-- Target:
-  - `isFraud` = 1 → fraudulent
-  - `isFraud` = 0 → normal transaction
-- Highly imbalanced → very few fraudulent transactions
+Download the dataset file:
+
+    - File name: `Fraud.csv`
+    - [🔗 Download Link](https://your-download-link-here.com/Fraud.csv)
+
+Each row in the dataset represents a single transaction, with the following columns:
+
+- **step** → Represents a unit of time where **1 step = 1 hour**
+- **type** → Type of online transaction (e.g. TRANSFER, CASH_OUT)
+- **amount** → The amount of the transaction
+- **nameOrig** → Customer initiating the transaction
+- **oldbalanceOrg** → Customer's balance before the transaction
+- **newbalanceOrig** → Customer's balance after the transaction
+- **nameDest** → Recipient of the transaction
+- **oldbalanceDest** → Initial balance of the recipient before the transaction
+- **newbalanceDest** → New balance of the recipient after the transaction
+- **isFraud** → Target variable:
+    - `1` → Fraudulent transaction
+    - `0` → Legitimate transaction
 
 ---
 
