@@ -22,6 +22,7 @@ We explore:
 
 ## 📂 Folder Structure
 
+`
 project-root/
 ├── data/
 │ ├── Fraud.csv
@@ -33,3 +34,5 @@ project-root/
 │ ├── 04_Logistic_Regression_Bayesian.ipynb
 │ └── 05_Final_Model_Comparison.ipynb
 ├── README.md
+
+`
