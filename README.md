@@ -47,8 +47,8 @@ We use a synthetic fraud detection dataset:
 
 Download the dataset file:
 
-    - File name: `Fraud.csv`
-    - [🔗 Download Link - kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/froud-detection-dataset)
+File name: 'Fraud.csv'
+[🔗 Download Link - kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/froud-detection-dataset)
 
 Each row in the dataset represents a single transaction, with the following columns:
 
