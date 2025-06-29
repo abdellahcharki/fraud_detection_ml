@@ -35,7 +35,7 @@ We explore:
 │    ├── 02_Frequentist_Logistic_Regression.ipynb
 │    ├── 03_Naive_Bayes_Classification.ipynb
 │    ├── 04_Logistic_Regression_Bayesian.ipynb
-│    └── 05_Final_Model_Comparison.ipynb
+│    └── 05_Model_Comparison.ipynb
 │
 ├── README.md
 └── requirements.txt
@@ -75,16 +75,30 @@ Each row in the dataset represents a single transaction, with the following colu
 
 ---
 
+### 01_Data_Exploration_Preprocessing.ipynb
+
+- Loads and inspects the fraud dataset.
+- Performs data cleaning:
+  - Checks for missing values.
+  - Converts categorical features.
+- Visualizes data distribution:
+  - Transaction types
+  - Amount distributions
+  - Class imbalance
+- Creates a processed dataset (`processed_fraud.csv`) for modeling.
+
+---
 
 ### 02_Frequentist_Logistic_Regression.ipynb
 
-- Tests different penalties:
-  - L1
-  - L2
-  - Elastic Net
-- Uses class-weight balancing
-- Plots ROC & Precision-Recall curves
-- Prints metrics for easy comparison
+- Implements logistic regression using scikit-learn.
+- Uses a single penalty (default or specified in the notebook).
+- Applies `class_weight='balanced'` to handle class imbalance.
+- Evaluates the model using:
+  - ROC AUC
+  - Precision-Recall AUC
+  - Confusion matrix
+- Plots ROC and Precision-Recall curves.
 
 ---
 
