@@ -23,7 +23,7 @@ We explore:
 ## 📂 Folder Structure
 
 ```plaintext
-fraud-detection-project/
+26-1CASKXX_fraud_detection/
 │
 ├── data/
 │    ├── Fraud.csv
@@ -42,13 +42,20 @@ fraud-detection-project/
 
 ## 🗂️ Dataset
 
-We use a synthetic fraud detection dataset:
-⚠️ **Important:** The original fraud detection dataset used in this project is large and not included in this repository to keep the repo size manageable.
+We use a synthetic fraud detection dataset for training and evaluating fraud detection models.
 
-Download the dataset file:
+⚠️ **Important:** The original fraud detection dataset used in this project is large (**~470 MB**) and **not included** in this repository to keep the repo size manageable.
 
-File name: 'Fraud.csv'
-[🔗 Download Link - kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/froud-detection-dataset)
+To run this project, you must manually download the dataset and place it into the existing `data/` folder.
+
+### How to Download
+
+1. Visit the Kaggle dataset page:  
+   👉 [Fraud Detection Dataset – Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/froud-detection-dataset)
+
+2. Download the file **`Fraud.csv`** (~470 MB).
+
+3. Move the downloaded `Fraud.csv` file into the existing `data/` folder so the path looks like this:
 
 Each row in the dataset represents a single transaction, with the following columns:
 
@@ -110,9 +117,3 @@ Each row in the dataset represents a single transaction, with the following colu
 - Plots curves for all models side by side
 
 ---
-
-
-## 🤝 Credits
-
-- Developed for the course **Probabilistic Machine Learning** (SoSe 2025)
-- Dataset inspired by fraud detection problem settings
