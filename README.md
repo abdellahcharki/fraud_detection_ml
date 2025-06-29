@@ -55,7 +55,7 @@ To run this project, you must manually download the dataset and place it into th
 
 2. Download the file **`Fraud.csv`** (~470 MB).
 
-3. Move the downloaded `Fraud.csv` file into the existing `data/` folder so the path looks like this:
+3. Move the downloaded `Fraud.csv` file into the folder `data/` .
 
 Each row in the dataset represents a single transaction, with the following columns:
 
