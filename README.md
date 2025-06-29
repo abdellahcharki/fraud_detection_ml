@@ -74,6 +74,7 @@ Each row in the dataset represents a single transaction, with the following colu
     - `0` → Legitimate transaction
 
 ---
+## 📓 Project Notebooks
 
 ### 01_Data_Exploration_Preprocessing.ipynb
 
