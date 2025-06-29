@@ -22,6 +22,7 @@ We explore:
 
 ## 📂 Folder Structure
 
+```plaintext
 fraud-detection-project/
 │
 ├── data/
@@ -37,7 +38,7 @@ fraud-detection-project/
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 ## 🗂️ Dataset
 
