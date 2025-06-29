@@ -26,6 +26,7 @@ We explore:
 26-1CASKXX_fraud_detection/
 │
 ├── data/
+│    ├── data_description.md
 │    ├── Fraud.csv
 │    └── processed_fraud.csv
 │
